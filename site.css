@@ -1,0 +1,288 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  height: 100%;
+}
+
+.line {
+  height: 1000px;
+  width: 1px; 
+  background-color: #ebebeb;
+  margin-left: 190px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.polygon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.polygonImg {
+  position: absolute; margin-left: 60px; margin-top: 60px
+}
+
+.logoHeader {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: Tahoma;
+  justify-content: space-between;
+}
+
+.logoName {
+  margin-left: 4%;
+  padding-top: 40px;
+  color: #3f4040;
+  width: 7.3%;
+  height: 1.8%;
+}
+
+.headerItems {
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 450px;
+  height: 100px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoText1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: regular;
+  letter-spacing: 3px;
+  color: #3f4040;
+}
+
+.logoImg {
+  height: 4.7%;
+  padding-top: 4%;
+}
+
+.logoText2 {
+  color: #a1a2a2
+}
+
+.category:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.categories {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-between;
+  width: 300px;
+}
+
+.languages {
+  background-image: url("Rectangle.png");
+  background-size: 100px;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #abacac;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5px;
+  width: 76px;
+  height: 40px;
+}
+
+.lanaguage:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.line2 {
+  width: 430px;
+  margin-top: 58px;
+}
+
+.home {
+  display: flex;
+}
+
+.homeText {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #f8f8f8;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.homeText2 {
+  margin-top: 28px;
+  font-weight: regular;
+}
+
+.homeTexts {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.serviceTitle {
+  font-size: 40px;
+  color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-top: 168px;
+  margin-left: 364px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  width: 30%;
+  height: 100%;
+}
+
+.itemHeader {
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+.itemLine {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 1px;
+  width: 56px;
+  background-color: #898989;
+}
+
+.itemText {
+  font-size: 16px;
+  color: #919393;
+  width: 100%;
+  font-variant-ligatures: contextual;
+  line-height: 20px;
+  font-weight: regular;
+}
+
+.itemInfo {
+  width: 50%;
+}
+
+.itemImage {
+  margin-top: 92px;
+  width: 47%;
+}
+
+.itemNumber {
+  height: 127px;
+  font-size: 140px;
+  color: #efefef;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact {
+  background-image: url('Rectangle7.png');
+  background-repeat: no-repeat;
+}
+
+.contactUs {
+  padding-top: 125px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #646868;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.textBox {
+  overflow: hidden;
+  border-bottom: 1px solid;
+  padding: 8px 0;
+  margin: 0 8px;
+  color: #00acc3;
+}
+
+.textBox input {
+  border: none;
+  outline: none;
+  background: none;
+  padding-left: 10px;
+}
+
+.bigInput {
+  border-bottom: 1px solid;
+  color: #00acc3;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.bigInput textarea {
+  margin-top: 40px;
+  resize: none;
+  padding: 0 10px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.btn {
+  font-weight: regular;
+  background-color: #008ead;
+  color: #fff;
+  border: none;
+  margin-top: 0.8%;
+  width: 18%;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+ -webkit-box-shadow: none;
+ box-shadow: none;
+}
